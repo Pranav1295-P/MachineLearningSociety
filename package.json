@@ -1,0 +1,36 @@
+{
+  "name": "machine-learning-society",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MachineLearningSociety - Mathematics for Machine Learning Lab. Interactive 3D labs for linear algebra, probability and calculus.",
+  "scripts": {
+    "dev": "vite --port 5274",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest run",
+    "py": "python3 python/run_all.py"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-sans": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "@fontsource/space-grotesk": "^5.3.0",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "katex": "^0.19.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.187.0",
+    "zustand": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.8",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.187.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.8",
+    "vitest": "^4.1.12"
+  }
+}
