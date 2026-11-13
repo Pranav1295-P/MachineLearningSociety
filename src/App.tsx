@@ -1,5 +1,5 @@
 import { useEffect, useState, type CSSProperties } from 'react'
-import { SOCIETY, TAGLINE } from './brand'
+import { HEADER_TAGLINE, SOCIETY, TAGLINE } from './brand'
 import { LABS } from './labs'
 import { Home } from './ui/Home'
 import { ExperimentsPage, PracticePage, ReferencePage, TABS, TheoryPage } from './ui/pages'
@@ -34,7 +34,7 @@ export function App() {
           <span className="brand-mark" aria-hidden />
           <span>
             <b>{SOCIETY}</b>
-            <small>{TAGLINE}</small>
+            <small>{HEADER_TAGLINE}</small>
           </span>
         </a>
         {lab && (
